@@ -1,16 +1,34 @@
-## Hi there 👋
+# Hi, I'm Amila Pathum 👋
 
-<!--
-**amila-pathum/amila-pathum** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
+🎓 IT Undergraduate at the University of Moratuwa  
+💻 Interested in Software Engineering & DevOps  
+☕ Currently learning Java and backend development  
+🚀 Building projects to strengthen my software engineering skills
 
-Here are some ideas to get you started:
+## 🛠️ Technologies & Tools
 
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
+### Languages
+Java · C · SQL · JavaScript / TypeScript
+
+### Development
+Git · GitHub · IntelliJ IDEA
+
+### Currently Learning
+Spring Boot · Linux · Docker · CI/CD · Cloud
+
+## 🚀 Featured Projects
+
+Coming soon...
+
+## 🌱 Currently Learning
+
+- Java & Object-Oriented Programming
+- Data Structures & Algorithms
+- Backend Development
+- Linux & DevOps
+- Docker & CI/CD
+
+## 📫 Connect With Me
+
+- LinkedIn-https://www.linkedin.com/in/amila-pathum-ranasinghe/
+- Email-amilapathumranasinghe@gmail.com
