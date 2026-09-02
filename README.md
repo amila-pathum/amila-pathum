@@ -30,5 +30,5 @@ Coming soon...
 
 ## 📫 Connect With Me
 
-- LinkedIn-https://www.linkedin.com/in/amila-pathum-ranasinghe/
-- Email-amilapathumranasinghe@gmail.com
+- LinkedIn- https://www.linkedin.com/in/amila-pathum-ranasinghe/
+- Email- amilapathumranasinghe@gmail.com
