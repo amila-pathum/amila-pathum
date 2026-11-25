@@ -1,0 +1,57 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 230" role="img" aria-labelledby="title desc">
+<title id="title">My engineering loop</title>
+<desc id="desc">Learn, build, test, deploy, improve — then repeat. Learn from docs and questions, build small real projects, test and debug, deploy with Docker, cloud and CI/CD, and improve by refactoring.</desc>
+<style>
+.node{animation:glow 10s infinite}
+.n2{animation-delay:2s}.n3{animation-delay:4s}.n4{animation-delay:6s}.n5{animation-delay:8s}
+@keyframes glow{0%,18%{stroke-opacity:1;fill-opacity:1}22%,100%{stroke-opacity:.35;fill-opacity:.55}}
+.loop{stroke-dasharray:6 8;animation:flow 1.6s linear infinite}
+@keyframes flow{to{stroke-dashoffset:-28}}
+@media(prefers-reduced-motion:reduce){.node,.loop{animation:none}.node{stroke-opacity:1;fill-opacity:1}}
+text{font-family:system-ui,'Segoe UI',Ubuntu,sans-serif}
+.num{font:600 12px Consolas,Menlo,monospace;letter-spacing:2px}
+.step{font-size:22px;font-weight:700;fill:#f0f6fc;letter-spacing:2px}
+.sub{font-size:13px;fill:#9caec4}
+</style>
+<defs>
+<linearGradient id="accent"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>
+<pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#1b2233" stroke-width="1"/></pattern>
+<marker id="arrow" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto"><path d="M0 0L10 5 0 10z" fill="#58607a"/></marker>
+</defs>
+<rect width="960" height="230" rx="18" fill="#0d1117"/><rect width="960" height="230" rx="18" fill="url(#grid)"/>
+<rect x="40" y="26" width="42" height="4" rx="2" fill="url(#accent)"/>
+<text x="96" y="33" font-size="13" letter-spacing="3" fill="#67e8f9">LEARN → BUILD → TEST → DEPLOY → IMPROVE → REPEAT</text>
+
+<g stroke-width="2">
+<rect class="node n1" x="22" y="56" width="148" height="96" rx="12" fill="#161b2e" stroke="#a78bfa"/>
+<rect class="node n2" x="212" y="56" width="148" height="96" rx="12" fill="#161b2e" stroke="#8b93f8"/>
+<rect class="node n3" x="402" y="56" width="148" height="96" rx="12" fill="#161b2e" stroke="#60a5fa"/>
+<rect class="node n4" x="592" y="56" width="148" height="96" rx="12" fill="#161b2e" stroke="#38bdf8"/>
+<rect class="node n5" x="782" y="56" width="148" height="96" rx="12" fill="#161b2e" stroke="#22d3ee"/>
+</g>
+<g stroke="#58607a" stroke-width="2" marker-end="url(#arrow)">
+<path d="M172 104h36"/><path d="M362 104h36"/><path d="M552 104h36"/><path d="M742 104h36"/>
+</g>
+<path class="loop" d="M856 154v32q0 12-12 12H108q-12 0-12-12v-28" fill="none" stroke="url(#accent)" stroke-width="2" marker-end="url(#arrow)"/>
+<text x="480" y="216" text-anchor="middle" font-size="12" letter-spacing="2" fill="#6e7a91">ITERATE</text>
+
+<text class="num" x="96" y="82" text-anchor="middle" fill="#a78bfa">01</text>
+<text class="step" x="96" y="112" text-anchor="middle">LEARN</text>
+<text class="sub" x="96" y="136" text-anchor="middle">docs, questions, why</text>
+
+<text class="num" x="286" y="82" text-anchor="middle" fill="#8b93f8">02</text>
+<text class="step" x="286" y="112" text-anchor="middle">BUILD</text>
+<text class="sub" x="286" y="136" text-anchor="middle">small, real projects</text>
+
+<text class="num" x="476" y="82" text-anchor="middle" fill="#60a5fa">03</text>
+<text class="step" x="476" y="112" text-anchor="middle">TEST</text>
+<text class="sub" x="476" y="136" text-anchor="middle">verify, break, debug</text>
+
+<text class="num" x="666" y="82" text-anchor="middle" fill="#38bdf8">04</text>
+<text class="step" x="666" y="112" text-anchor="middle">DEPLOY</text>
+<text class="sub" x="666" y="136" text-anchor="middle">Docker, cloud, CI/CD</text>
+
+<text class="num" x="856" y="82" text-anchor="middle" fill="#22d3ee">05</text>
+<text class="step" x="856" y="112" text-anchor="middle">IMPROVE</text>
+<text class="sub" x="856" y="136" text-anchor="middle">refactor, iterate</text>
+</svg>
