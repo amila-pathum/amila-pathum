@@ -1,0 +1,9 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 960 240" role="img" aria-labelledby="title desc">
+<title id="title">Amila Pathum — aspiring software engineer</title>
+<desc id="desc">IT undergraduate. Building practical software, from APIs to deployment.</desc>
+<defs><linearGradient id="accent"><stop stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><pattern id="grid" width="32" height="32" patternUnits="userSpaceOnUse"><path d="M32 0H0V32" fill="none" stroke="#20283d" stroke-width="1"/></pattern></defs>
+<rect width="960" height="240" rx="18" fill="#0d1117"/><rect width="960" height="240" rx="18" fill="url(#grid)"/>
+<rect x="40" y="44" width="42" height="4" rx="2" fill="url(#accent)"/>
+<g font-family="system-ui,Segoe UI,sans-serif"><text x="40" y="85" font-size="14" letter-spacing="3" fill="#67e8f9">LEARN / BUILD / ITERATE</text><text x="36" y="143" font-size="52" font-weight="700" fill="#f0f6fc">Amila Pathum</text><text x="40" y="182" font-size="21" fill="#c4b5fd">Aspiring software engineer</text><text x="40" y="212" font-size="16" fill="#9caec4">Building practical software, from APIs to deployment.</text></g>
+<path d="M790 65l-35 55 35 55m65-110 35 55-35 55m-28-125-17 140" stroke="url(#accent)" stroke-width="5" fill="none" opacity=".65"/>
+</svg>
